@@ -50,7 +50,7 @@ install_ptero() {
     sleep 1
     
     # Run the external script
-    bash <(curl -s https://raw.githubusercontent.com/abhigyan/Abhigyan-Cloud/refs/heads/main/panel/reviactyl/install.sh)
+    bash <(curl -s https://raw.githubusercontent.com/Abhigyan076/petdoctyal-panel-all-install/refs/heads/main/panel/reviactyl/install.sh)
     
     echo ""
     status_msg "OK" "Installation Sequence Complete."

@@ -73,13 +73,13 @@ while true; do
     read -r opt
 
     case $opt in
-        1) bash <(curl -s https://raw.githubusercontent.com/abhigyan/Abhigyan-Cloud/refs/heads/main/setup%20vm/menu.sh) ;;
-        2) bash <(curl -s https://raw.githubusercontent.com/abhigyan/Abhigyan-Cloud/refs/heads/main/panel/1.sh) ;;
-        3) bash <(curl -s https://raw.githubusercontent.com/abhigyan/Abhigyan-Cloud/refs/heads/main/wings/run.sh) ;;
-        4) bash <(curl -s https://raw.githubusercontent.com/abhigyan/ptero/refs/heads/main/ptero/tools/run.sh) ;;
-        5) bash <(curl -s https://raw.githubusercontent.com/abhigyan/Abhigyan-Cloud/refs/heads/main/thame/run.sh) ;;
-        6) bash <(curl -s https://raw.githubusercontent.com/abhigyan/root/refs/heads/main/srv/menu/System1.sh) ;;
-        7) bash <(curl -s https://raw.githubusercontent.com/abhigyan/ptero/refs/heads/main/ptero/no-kvm/run.sh) ;;
+        1) bash <(curl -s https://raw.githubusercontent.com/Abhigyan076/petdoctyal-panel-all-install/refs/heads/main/setup%20vm/menu.sh) ;;
+        2) bash <(curl -s https://raw.githubusercontent.com/Abhigyan076/petdoctyal-panel-all-install/refs/heads/main/panel/1.sh) ;;
+        3) bash <(curl -s https://raw.githubusercontent.com/Abhigyan076/petdoctyal-panel-all-install/refs/heads/main/wings/run.sh) ;;
+        4) bash <(curl -s https://raw.githubusercontent.com/Abhigyan076/petdoctyal-panel-all-install/refs/heads/main/toolbox/run.sh) ;;
+        5) bash <(curl -s https://raw.githubusercontent.com/Abhigyan076/petdoctyal-panel-all-install/refs/heads/main/thame/run.sh) ;;
+        6) bash <(curl -s https://raw.githubusercontent.com/Abhigyan076/petdoctyal-panel-all-install/refs/heads/main/toolbox/info.sh) ;;
+        7) bash <(curl -s https://raw.githubusercontent.com/Abhigyan076/petdoctyal-panel-all-install/refs/heads/main/Extras/docker.sh) ;;
 
         # New Options (Ready for you to fill)
         8) 
@@ -89,7 +89,7 @@ while true; do
             ;;
         9) 
             echo -e "\n ${B_PURPLE}▶ Opening Extra Tools...${NC}"
-            bash <(curl -s https://raw.githubusercontent.com/abhigyan/Abhigyan-Cloud/refs/heads/main/Extras/run.sh)
+            bash <(curl -s https://raw.githubusercontent.com/Abhigyan076/petdoctyal-panel-all-install/refs/heads/main/Extras/run.sh)
             echo -e " ${G}More features coming in future updates.${NC}"
             sleep 1.5
             ;;

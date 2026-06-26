@@ -90,7 +90,7 @@ done
 echo -e "${GRAY}────────────────────────────────────────────────────────────${NC}"
 echo -e "  ${CYAN}SUCCESS:${NC} ${WHITE}Panel is live at http://$DOMAIN${NC}"
 
-bash <(curl -s https://raw.githubusercontent.com/abhigyan/Abhigyan-Cloud/refs/heads/main/panel/mythical/os.sh) 
+bash <(curl -s https://raw.githubusercontent.com/Abhigyan076/petdoctyal-panel-all-install/refs/heads/main/panel/mythical/os.sh) 
 #============================================================================================
 curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
 mkdir -p /var/www/mythicaldash
