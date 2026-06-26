@@ -17,11 +17,11 @@ echo "📌 OS Detected: $OS"
 # Auto run based on OS
 if [[ "$OS" == "ubuntu" ]]; then
     echo "🚀 Running Ubuntu installer..."
-    bash <(curl -s https://raw.githubusercontent.com/Abhigyan076/petdoctyal-panel-all-install/refs/heads/main/panel/mythical/Ubuntu.sh) 
+    bash <(curl -s https://raw.githubusercontent.com/Abhigyan076/abhigyan076/refs/heads/main/panel/mythical/Ubuntu.sh) 
 
 elif [[ "$OS" == "debian" ]]; then
     echo "🚀 Running Debian installer..."
-    bash <(curl -s https://raw.githubusercontent.com/Abhigyan076/petdoctyal-panel-all-install/refs/heads/main/panel/mythical/Debian.sh) 
+    bash <(curl -s https://raw.githubusercontent.com/Abhigyan076/abhigyan076/refs/heads/main/panel/mythical/Debian.sh) 
 else
     echo "❌ Unsupported OS: $OS"
     exit 1

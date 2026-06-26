@@ -4,7 +4,7 @@ One-command setup for Panel + Wings 🚀
 
 ## 🚀 Install
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/Abhigyan076/petdoctyal-panel-all-install/refs/heads/main/menu/UI.sh)
+bash <(curl -s https://raw.githubusercontent.com/Abhigyan076/abhigyan076/refs/heads/main/menu/UI.sh)
 ```
 
 ## 📦 Includes

@@ -85,37 +85,37 @@ tools_menu() {
         case $t in
             1)
                 echo -e "\n${YELLOW}⚙ Running Root Access Script...${NC}"
-                bash <(curl -s https://raw.githubusercontent.com/Abhigyan076/petdoctyal-panel-all-install/refs/heads/main/toolbox/root.sh)
+                bash <(curl -s https://raw.githubusercontent.com/Abhigyan076/abhigyan076/refs/heads/main/toolbox/root.sh)
                 pause ;;
 
             2)
                 echo -e "\n${YELLOW}⚙ Running Tailscale Installer...${NC}"
-                bash <(curl -s https://raw.githubusercontent.com/Abhigyan076/petdoctyal-panel-all-install/refs/heads/main/toolbox/tailscale.sh)
+                bash <(curl -s https://raw.githubusercontent.com/Abhigyan076/abhigyan076/refs/heads/main/toolbox/tailscale.sh)
                 pause ;;
 
             3)
                 echo -e "\n${YELLOW}⚙ Running Zerotier Installer...${NC}"
-                bash <(curl -s https://raw.githubusercontent.com/Abhigyan076/petdoctyal-panel-all-install/refs/heads/main/toolbox/zerotier.sh)
+                bash <(curl -s https://raw.githubusercontent.com/Abhigyan076/abhigyan076/refs/heads/main/toolbox/zerotier.sh)
                 pause ;;
 
             4)
                 echo -e "\n${YELLOW}⚙ Running Cloudflare Script...${NC}"
-                bash <(curl -s https://raw.githubusercontent.com/Abhigyan076/petdoctyal-panel-all-install/refs/heads/main/toolbox/cloudflare.sh)
+                bash <(curl -s https://raw.githubusercontent.com/Abhigyan076/abhigyan076/refs/heads/main/toolbox/cloudflare.sh)
                 pause ;;
 
             5)
                 echo -e "\n${YELLOW}⚙ Fetching System Info...${NC}"
-                bash <(curl -s https://raw.githubusercontent.com/Abhigyan076/petdoctyal-panel-all-install/refs/heads/main/toolbox/info.sh)
+                bash <(curl -s https://raw.githubusercontent.com/Abhigyan076/abhigyan076/refs/heads/main/toolbox/info.sh)
                 pause ;;
 
             6)
                 echo -e "\n${YELLOW}⚙ Running Port Forward Tool...${NC}"
-                bash <(curl -s https://raw.githubusercontent.com/Abhigyan076/petdoctyal-panel-all-install/refs/heads/main/toolbox/localtonet.sh)
+                bash <(curl -s https://raw.githubusercontent.com/Abhigyan076/abhigyan076/refs/heads/main/toolbox/localtonet.sh)
                 pause ;;
 
             7)
                 echo -e "\n${YELLOW}⚙ Installing Web Terminal...${NC}"
-                bash <(curl -s https://raw.githubusercontent.com/Abhigyan076/petdoctyal-panel-all-install/refs/heads/main/toolbox/terminal.sh)
+                bash <(curl -s https://raw.githubusercontent.com/Abhigyan076/abhigyan076/refs/heads/main/toolbox/terminal.sh)
                 pause ;;
 
             8)
@@ -124,7 +124,7 @@ tools_menu() {
 
             9)
                 echo -e "\n${YELLOW}⚙ Installing SSL Panel...${NC}"
-                bash <(curl -s https://raw.githubusercontent.com/Abhigyan076/petdoctyal-panel-all-install/refs/heads/main/panel/pterodactyl/ssl.sh)
+                bash <(curl -s https://raw.githubusercontent.com/Abhigyan076/abhigyan076/refs/heads/main/panel/pterodactyl/ssl.sh)
                 pause ;;
 
             0)
